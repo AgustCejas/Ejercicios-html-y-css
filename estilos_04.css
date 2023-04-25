@@ -1,0 +1,6 @@
+#elemento-1{
+    color: red;
+}
+div.compra li#elemento-1 {
+    font-size: 2rem;
+}
