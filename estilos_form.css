@@ -13,8 +13,8 @@ html {
 body {
   margin: 0;
   padding: 0;
-  background: #fff;
-  color: #0d0c22;
+  background: #161717;
+  color: whitesmoke;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 62.5%;
   height: 100%;
@@ -30,8 +30,8 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background: #f2d184;
-  color: #866118;
+  background: #866118;
+  color: #967d4d;
   width: 500px;
   flex-grow: 0;
   position: relative;
@@ -60,6 +60,7 @@ header {
   justify-content: flex-end;
   padding: 30px 30px 0;
   position: relative;
+  font-size: small;
 }
 
 main {
@@ -116,6 +117,11 @@ h2 {
   align-items: center;
 }
 
+.btn-google:hover {
+  background-color: #679ce2;
+  transition: 0.5s;
+}
+
 .logo-google {
   width: 30px;
   height: 30px;
@@ -134,15 +140,14 @@ h2 {
 }
 
 .logo-twitter {
-    width: 20px;
-    height: 20px;
-    background-color: #6e6d7a;
-    color: #6e6d7a;
-    border: none;
+  width: 20px;
+  height: 20px;
+  border: none;
 }
 
-.btn-twitter:hover{
-    color: #2f2f35;
+.btn-twitter:hover {
+  background-color: #e2e2e2;
+  transition: 0.5s;
 }
 
 hr {
@@ -150,7 +155,7 @@ hr {
   padding: 0;
   overflow: visible;
   border: none;
-  border-top: 1px solid #e0e0e0;
+  border-top: 1px solid #414040;
   color: #6e6d7a;
   text-align: center;
 }
@@ -160,7 +165,7 @@ hr::after {
   display: inline block;
   position: relative;
   padding: 0 16px;
-  background-color: #fff;
+  background-color: #161717;
   font-size: medium;
 }
 
@@ -196,7 +201,7 @@ hr::after {
 label {
   display: block;
   margin: 14px 0;
-  color: #0d0c22;
+  color: whitesmoke;
   font: bold 15px "Helvetica";
 }
 
@@ -211,14 +216,20 @@ input {
   height: 40px;
   padding: 10px 16px;
   outline: none;
-  background-color: #f3f3f4;
-  color: #0d0c22;
+  background-color: #212121;
+  color: white;
   appearance: none;
   box-sizing: border-box;
 }
 
 input:hover {
-  background-color: #fff;
+  background-color: #454045;
+  transition: 0.5s;
+  box-shadow: 0 0 0 3px #ea4c896b;
+}
+
+input:focus {
+  background-color: #454045;
   transition: 0.5s;
   box-shadow: 0 0 0 3px #ea4c896b;
 }
@@ -254,16 +265,16 @@ fieldset {
   height: 20px;
   margin: 0 12ps 0 0;
   padding: 0;
-  border: 1px solid #dbdbde;
+  border: 1px solid #444446;
   outline: none;
-  background: #dbdbde;
+  background: #444446;
   appearance: none;
   box-sizing: border-box;
 }
 
-.checkbox:checked{
-    box-shadow: 0 0 0 2px hotpink;
-    background: #ea4c89;
+.checkbox:checked {
+  box-shadow: 0 0 0 2px hotpink;
+  background: #ea4c89;
 }
 
 .terms {
@@ -286,9 +297,9 @@ fieldset {
   padding: 10px 16px;
   text-align: center;
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 20px;
-  color: #dbdbde;
+  color: white;
 }
 
 .btn-registro:hover {
