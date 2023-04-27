@@ -1,0 +1,96 @@
+<!-- Los colores serán los siguientes
+El rosa se queda igual
+El fondo blanco será sustituido por el color #161717
+El fondo de los inputs tendrá un color #212121
+El fondo de los inputs cuando se hace hover será del color #454045
+Los textos tendrán un color blanco -->
+
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="estilos_form.css" />
+    <title>Formularios</title>
+  </head>
+
+  <body>
+    <div class="main-container">
+      <section class="sidebar">
+        <header>
+          <h1>
+            Descubra a los mejores <br />
+            Diseñadores del mundo entero!
+          </h1>
+        </header>
+        <div class="artwork">Hecho por AgustCejas</div>
+      </section>
+      <section class="form-1">
+        <nav class="nav">
+          <p class="link">
+            Si ya eres usuario...<a href="https://dribbble.com/signup/new"
+              >registrate igual</a
+            >
+          </p>
+        </nav>
+        <main>
+          <div class="auth-content">
+            <h1>Registrate en dribbble</h1>
+            <div class="boton-content">
+              <button class="btn-google">
+                <img
+                  class="logo-google"
+                  src="multimedia/google.logo.png"
+                  alt="logo google"
+                />
+                <p class="text-google" style="padding-left: 35px">
+                  Acceder con Google
+                </p>
+              </button>
+              <button class="btn-twitter"><img class="logo-twitter" src="multimedia/logo-twitter.jpg" alt="logo.twitter"></button>
+            </div>
+            <hr />
+            <div>
+              <form name="registro" action="">
+                <div class="name-username">
+                  <fieldset class="name">
+                    <label for="name">Nombre</label>
+                    <input type="text" />
+                  </fieldset>
+                  <fieldset class="username">
+                    <label for="username">Username</label>
+                    <input type="text" />
+                  </fieldset>
+                </div>
+                <div class="email-cont">
+                  <fieldset class="email">
+                    <label for="email">Email</label>
+                    <input type="email" />
+                  </fieldset>
+                </div>
+                <div class="password-cont">
+                  <fieldset class="password">
+                    <label for="password">Contraseña</label>
+                    <input type="password" placeholder="6+ caracteres" />
+                  </fieldset>
+                </div>
+                <div class="check-cont">
+                  <fieldset class="check">
+                    <input class="checkbox" type="checkbox" />
+                    <label for="terms">Acepto los terminos y condiciones</label>
+                  </fieldset>
+                </div>
+                <div class="botones">
+                  <button class="btn-registro" name="button">
+                    Crear Cuenta
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </main>
+      </section>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,297 @@
+html {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: inherit;
+  font-size: 100%;
+  font-style: inherit;
+  font-weight: inherit;
+  line-height: 1;
+  vertical-align: baseline;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  color: #0d0c22;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 62.5%;
+  height: 100%;
+}
+
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+  overflow: hidden;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: #f2d184;
+  color: #866118;
+  width: 500px;
+  flex-grow: 0;
+  position: relative;
+}
+
+header {
+  padding: 64px 64px 30px;
+  max-width: 100%;
+  margin: 0;
+  text-align: left;
+}
+
+.form-1 {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  overflow: auto;
+  width: 100%;
+  margin-bottom: 85px;
+}
+
+.nav {
+  display: flex;
+  flex-grow: 0;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 30px 30px 0;
+  position: relative;
+}
+
+main {
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  justify-items: center;
+  margin: 0;
+  padding: 0;
+  justify-content: space-around;
+}
+
+.auth-content {
+  margin: 0;
+  padding: 30px 60px 0;
+  width: 100%;
+  max-width: 416px;
+}
+
+h1 {
+  font-size: 25px;
+  line-height: 30px;
+  padding-right: 30px;
+  display: block;
+}
+
+h2 {
+  margin: 0;
+  margin-bottom: 26px;
+  font: bold;
+}
+
+.boton-content {
+  display: flex;
+  margin: 0 0 40px;
+  height: 40px;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  appearance: none;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.btn-google {
+  display: flex;
+  min-width: 250px;
+  color: white;
+  background-color: #1a73e8;
+  border: none;
+  border-radius: 8px;
+  align-items: center;
+}
+
+.logo-google {
+  width: 30px;
+  height: 30px;
+  background-color: #f3f3f4;
+  border: none;
+  border-radius: 5px;
+}
+
+.btn-twitter {
+  background-color: #f2f2f2;
+  color: #6e6d7a;
+  margin-left: 16px;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 16px;
+}
+
+.logo-twitter {
+    width: 20px;
+    height: 20px;
+    background-color: #6e6d7a;
+    color: #6e6d7a;
+    border: none;
+}
+
+.btn-twitter:hover{
+    color: #2f2f35;
+}
+
+hr {
+  margin-bottom: 10px;
+  padding: 0;
+  overflow: visible;
+  border: none;
+  border-top: 1px solid #e0e0e0;
+  color: #6e6d7a;
+  text-align: center;
+}
+
+hr::after {
+  content: "O...";
+  display: inline block;
+  position: relative;
+  padding: 0 16px;
+  background-color: #fff;
+  font-size: medium;
+}
+
+.name-username {
+  display: flex;
+  justify-content: space-between;
+  min-width: 400px;
+}
+
+.name,
+.username {
+  position: relative;
+  width: 48%;
+  padding: 12px 0;
+  border: none;
+}
+
+.email-cont,
+.password-cont,
+.check-cont {
+  padding: 12px 0;
+  position: relative;
+}
+
+.email,
+.password {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  border: none;
+}
+
+label {
+  display: block;
+  margin: 14px 0;
+  color: #0d0c22;
+  font: bold 15px "Helvetica";
+}
+
+input {
+  width: 100%;
+  margin-right: 8px;
+  border: 1px solid transparent;
+  font-size: 14px;
+  border-radius: 8px;
+  font-weight: 400;
+  line-height: 28px;
+  height: 40px;
+  padding: 10px 16px;
+  outline: none;
+  background-color: #f3f3f4;
+  color: #0d0c22;
+  appearance: none;
+  box-sizing: border-box;
+}
+
+input:hover {
+  background-color: #fff;
+  transition: 0.5s;
+  box-shadow: 0 0 0 3px #ea4c896b;
+}
+
+.check {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  display: flex;
+  border: none;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+fieldset {
+  margin-inline-end: 2px;
+  margin-inline-start: 2px;
+  padding-block-start: 0.35em;
+  padding-inline-start: 0.75em;
+  padding-inline-end: 0.75em;
+  padding-block-end: 0.625em;
+  min-inline-size: min-content;
+}
+
+.checkbox {
+  border-radius: 0;
+  display: flex;
+  position: relative;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  margin: 0 12ps 0 0;
+  padding: 0;
+  border: 1px solid #dbdbde;
+  outline: none;
+  background: #dbdbde;
+  appearance: none;
+  box-sizing: border-box;
+}
+
+.checkbox:checked{
+    box-shadow: 0 0 0 2px hotpink;
+    background: #ea4c89;
+}
+
+.terms {
+  display: block;
+  position: relative;
+  margin: 0;
+  color: gray;
+  font: normal 14px "Arial";
+}
+
+.btn-registro {
+  background-color: #ea4c89;
+  border: none;
+  border-radius: 8px;
+  max-width: 200px;
+  display: block;
+  width: 100%;
+  margin-top: 22px;
+  position: relative;
+  padding: 10px 16px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  color: #dbdbde;
+}
+
+.btn-registro:hover {
+  opacity: 0.7;
+  transition: 0.3s;
+}
