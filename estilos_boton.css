@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: antiquewhite;
+}
+
+.btn_modern {
+  padding: 8px 16px;
+  border-radius: 8px;
+  border: none;
+  background-color: darkblue;
+  color: antiquewhite;
+  border-bottom: 3px solid rgba(0, 0, 255, 0.623);
+  cursor: pointer;
+}
+.btn_modern:hover {
+  background-color: blueviolet;
+  border-bottom: 2px solid rgb(97, 32, 158);
+  color: black;
+  translate: 0px -5px;
+  box-shadow: 3px -3px 3px rgba(0, 0, 0, 0.616);
+}
