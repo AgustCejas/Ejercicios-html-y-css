@@ -16,11 +16,12 @@ body {
   color: antiquewhite;
   border-bottom: 3px solid rgba(0, 0, 255, 0.623);
   cursor: pointer;
+  transition: 0.4s;
 }
 .btn_modern:hover {
   background-color: blueviolet;
   border-bottom: 2px solid rgb(97, 32, 158);
   color: black;
   translate: 0px -5px;
-  box-shadow: 3px -3px 3px rgba(0, 0, 0, 0.616);
+  box-shadow: inset 3px -3px 3px rgba(0, 0, 0, 0.616);
 }
